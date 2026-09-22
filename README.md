@@ -1,6 +1,6 @@
 | #  | Problema                                                                                                | Solución                                                             |
 | -- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
-| 1  | `<title>pagina</title>` no describe la página.                                                          | Cambiar a `<title>Calculadora de Promedio</title>`.                  |
+| 1  | <title>pagina</title> no describe la página.                                                          | Cambiar a `<title>Calculadora de Promedio</title>`.                  |
 | 2  | Archivos con espacios y extensiones en mayúsculas (`Estilos Del Sitio.CSS`, `Mi Pagina De Notas.HTML`). | Renombrar en minúsculas y sin espacios: `estilos.css`, `index.html`. |
 | 3  | Variables `a`, `b`, `c` poco descriptivas.                                                              | Renombrar a `nota1`, `nota2`, `nota3`.                               |
 | 4  | `x = 3` es un número mágico y poco claro.                                                               | Renombrar a `cantidadNotas`.                                         |
