@@ -30,7 +30,7 @@
 
 let data1 = [];
 let TempValue2 = 0;
-let x = 3;
+let CantidadNotas = 3;
 
 function calc() {
 
@@ -45,7 +45,7 @@ function calc() {
         return;
     }
 
-    TempValue2 = (nota1 + nota2 + nota3) / x;
+    TempValue2 = (nota1 + nota2 + nota3) / CantidadNotas;
 
     document.getElementById("r").innerHTML = "Promedio: " + TempValue2.toFixed(2);
 
