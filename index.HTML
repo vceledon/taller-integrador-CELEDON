@@ -29,7 +29,7 @@
 <script>
 
 let data1 = [];
-let TempValue2 = 0;
+let promedio = 0;
 let CantidadNotas = 3;
 
 function calc() {
@@ -45,11 +45,11 @@ function calc() {
         return;
     }
 
-    TempValue2 = (nota1 + nota2 + nota3) / CantidadNotas;
+    promedio = (nota1 + nota2 + nota3) / CantidadNotas;
 
-    document.getElementById("r").innerHTML = "Promedio: " + TempValue2.toFixed(2);
+    document.getElementById("r").innerHTML = "Promedio: " + promedio.toFixed(2);
 
-    if (TempValue2 >= 3.0) {
+    if (promedio >= 3.0) {
         document.getElementById("r2").innerHTML = "Resultado: aprobado";
     } else {
         document.getElementById("r2").innerHTML = "Resultado: reprobado";
