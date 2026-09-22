@@ -11,4 +11,3 @@ TALLER INTEGRADOR INDIVIDUAL - VALERY CELEDON MARENCO
 | 7  | Existe código comentado (calcularAntiguo).                                                            | Eliminar el bloque comentado.                                        |
 | 8  | IDs r y r2 no son descriptivos.                                                                     | Renombrar a resultadoPromedio y resultadoEstado.                 |
 | 9 | Clase .cont1 poco descriptiva.                                                                        | Renombrar a .contenedor o .tarjeta.                              |
-| 10 | TempValue2 y x son variables globales innecesarias.                                                 | Declararlas con let dentro de calc().                            |
