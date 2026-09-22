@@ -9,7 +9,6 @@ TALLER INTEGRADOR INDIVIDUAL - VALERY CELEDON MARENCO
 | 5  | TempValue2 no describe su contenido y rompe el estilo de nombres.                                     | Renombrar a promedio usando camelCase.                             |
 | 6  | data1 = [] nunca se utiliza.                                                                          | Eliminar la variable.                                                |
 | 7  | Existe código comentado (calcularAntiguo).                                                            | Eliminar el bloque comentado.                                        |
-| 8  | Hay console.log usados para depuración.                                                               | Eliminarlos en la versión final.                                     |
-| 9  | IDs r y r2 no son descriptivos.                                                                     | Renombrar a resultadoPromedio y resultadoEstado.                 |
-| 10 | Clase .cont1 poco descriptiva.                                                                        | Renombrar a .contenedor o .tarjeta.                              |
-| 11 | TempValue2 y x son variables globales innecesarias.                                                 | Declararlas con let dentro de calc().                            |
+| 8  | IDs r y r2 no son descriptivos.                                                                     | Renombrar a resultadoPromedio y resultadoEstado.                 |
+| 9 | Clase .cont1 poco descriptiva.                                                                        | Renombrar a .contenedor o .tarjeta.                              |
+| 10 | TempValue2 y x son variables globales innecesarias.                                                 | Declararlas con let dentro de calc().                            |
