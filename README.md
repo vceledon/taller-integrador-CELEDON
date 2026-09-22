@@ -1,3 +1,5 @@
+TALLER INTEGRADOR INDIVIDUAL - VALERY CELEDON MARENCO
+
 | #  | Problema                                                                                                | Solución                                                             |
 | -- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | 1  | <title>pagina</title> no describe la página.                                                          | Cambiar a <title>Calculadora de Promedio</title>.                  |
