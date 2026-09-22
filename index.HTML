@@ -22,8 +22,8 @@
 
         <button onclick="calc()">Calcular</button>
 
-        <p id="r"></p>
-        <p id="r2"></p>
+        <p id="resultadoPromedio"></p>
+        <p id="resultadoEstado"></p>
     </div>
 
 <script>
@@ -41,18 +41,18 @@ function calc() {
     console.log("valores capturados:", nota1, nota2, nota3);
 
     if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3)) {
-        document.getElementById("r").innerHTML = "Debe ingresar las tres notas.";
+        document.getElementById("resultadoPromedio").innerHTML = "Debe ingresar las tres notas.";
         return;
     }
 
     promedio = (nota1 + nota2 + nota3) / CantidadNotas;
 
-    document.getElementById("r").innerHTML = "Promedio: " + promedio.toFixed(2);
+    document.getElementById("resultadoPromedio").innerHTML = "Promedio: " + promedio.toFixed(2);
 
     if (promedio >= 3.0) {
-        document.getElementById("r2").innerHTML = "Resultado: aprobado";
+        document.getElementById("resultadoEstado").innerHTML = "Resultado: aprobado";
     } else {
-        document.getElementById("r2").innerHTML = "Resultado: reprobado";
+        document.getElementById("resultadoEstado").innerHTML = "Resultado: reprobado";
     }
 
     console.log("promedio calculado");
